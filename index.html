@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        .header {
+            background-color: lightgreen;
+            padding: 1em;
+        }
+
+        .main {
+            background-color: lightseagreen;
+        }
+
+        .footer {
+            background-color: lightgreen;
+            padding: 1em;
+        }
+
+        .clearfix {
+            overflow: auto;
+            zoom: 1;
+        }
+
+        .side-bar {
+            padding: 1em;
+        }
+
+        .content {
+            padding: 1em;
+        }
+
+        @media(min-width:800px) {
+            .side-bar {
+                float: right;
+                width: 25%;
+            }
+        }
+
+        .menu li {
+            list-style: none;
+            margin: 0em;
+            padding: 0em;
+        }
+
+        /* remove the list item dots*/
+        .menu li {
+            list-style: none;
+        }
+
+
+        .menu a {
+            /* Ensure one can click anyware in the li for the link */
+            padding: 1em;
+            display: block;
+            width: 6em;
+        }
+
+        .menu a:hover {
+            /* Change the menu color to darker green when hovering over a link*/
+            background-color: lightseagreen;
+        }
+
+        @media(min-width:800px) {
+            /* Other css is here still */
+            .menu {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <ul class="menu">
+                <li><a href="#">Menu item 1</a></li>
+                <li><a href="#">Menu item 2</a></li>
+                <li><a href="#">Menu item 3</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="side-bar">
+                <h2>side bar</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Pellentesque nec nam aliquam sem et tortor consequat id.
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin.
+                Ut faucibus pulvinar elementum integer enim neque volutpat.
+                Pellentesque diam volutpat commodo sed egestas egestas.
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam.
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac.
+                Metus aliquam eleifend mi in.
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium.
+                Lobortis mattis aliquam faucibus purus in massa.
+                Morbi tristique senectus et netus et. Sed id semper risus in.
+                Ut sem nulla pharetra diam sit.
+                Nibh venenatis cras sed felis eget velit aliquet.
+            </div>
+            <div class="content">
+                <h2>Main content</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Pellentesque nec nam aliquam sem et tortor consequat id.
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin.
+                Ut faucibus pulvinar elementum integer enim neque volutpat.
+                Pellentesque diam volutpat commodo sed egestas egestas.
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam.
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac.
+                Metus aliquam eleifend mi in.
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium.
+                Lobortis mattis aliquam faucibus purus in massa.
+                Morbi tristique senectus et netus et. Sed id semper risus in.
+                Ut sem nulla pharetra diam sit.
+                Nibh venenatis cras sed felis eget velit aliquet.
+                <h2>Main content</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Pellentesque nec nam aliquam sem et tortor consequat id.
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin.
+                Ut faucibus pulvinar elementum integer enim neque volutpat.
+                Pellentesque diam volutpat commodo sed egestas egestas.
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam.
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac.
+                Metus aliquam eleifend mi in.
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium.
+                Lobortis mattis aliquam faucibus purus in massa.
+                Morbi tristique senectus et netus et. Sed id semper risus in.
+                Ut sem nulla pharetra diam sit.
+                Nibh venenatis cras sed felis eget velit aliquet.
+                <h2>Main content</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Pellentesque nec nam aliquam sem et tortor consequat id.
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin.
+                Ut faucibus pulvinar elementum integer enim neque volutpat.
+                Pellentesque diam volutpat commodo sed egestas egestas.
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam.
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac.
+                Metus aliquam eleifend mi in.
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium.
+                Lobortis mattis aliquam faucibus purus in massa.
+                Morbi tristique senectus et netus et. Sed id semper risus in.
+                Ut sem nulla pharetra diam sit.
+                Nibh venenatis cras sed felis eget velit aliquet.
+                <h2>Main content</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Pellentesque nec nam aliquam sem et tortor consequat id.
+                Elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
+                Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin.
+                Ut faucibus pulvinar elementum integer enim neque volutpat.
+                Pellentesque diam volutpat commodo sed egestas egestas.
+                Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam.
+                Augue mauris augue neque gravida in fermentum et sollicitudin ac.
+                Metus aliquam eleifend mi in.
+                Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium.
+                Lobortis mattis aliquam faucibus purus in massa.
+                Morbi tristique senectus et netus et. Sed id semper risus in.
+                Ut sem nulla pharetra diam sit.
+                Nibh venenatis cras sed felis eget velit aliquet.
+
+
+            </div>
+        </div>
+        <div class="main clearfix">
+            <div class="footer">
+                <h4>@footer inc</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
